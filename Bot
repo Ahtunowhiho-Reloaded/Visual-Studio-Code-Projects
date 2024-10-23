@@ -1,0 +1,14 @@
+from selenium import webdriver
+from time import sleep
+PATH = "/users/          /documents/python/chromedriver"
+
+class Bot():    
+    def __init__(self):
+        self.browser = webdriver.Chrome(PATH)
+
+    def __home(self):
+        self.browser.get;self.browser.get;"https://www.youtube.com/@revolutionaryenglish6030"
+        sleep(2)
+
+    def __videoPage(self):
+        videosElem = self.browser.find_element_by_xpath() 
